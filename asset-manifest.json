@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Order-summary-component/static/css/main.0e2572c2.css",
-    "main.js": "/Order-summary-component/static/js/main.ed749a9a.js",
+    "main.css": "/Order-summary-component/static/css/main.66f5e6ff.css",
+    "main.js": "/Order-summary-component/static/js/main.0b753915.js",
     "static/js/787.ccd940c6.chunk.js": "/Order-summary-component/static/js/787.ccd940c6.chunk.js",
     "static/media/RedHatDisplay-Medium.woff": "/Order-summary-component/static/media/RedHatDisplay-Medium.a725f21659bc2f166012.woff",
     "static/media/RedHatDisplay-Bold.woff": "/Order-summary-component/static/media/RedHatDisplay-Bold.01a474f44d33143c7267.woff",
@@ -14,12 +14,12 @@
     "static/media/icon-music.svg": "/Order-summary-component/static/media/icon-music.f20c7787426b3847880ef13817068c16.svg",
     "static/media/pattern-background-mobile.svg": "/Order-summary-component/static/media/pattern-background-mobile.c8d50fcb68aa27a01e4d.svg",
     "static/media/pattern-background-desktop.svg": "/Order-summary-component/static/media/pattern-background-desktop.5a0ab6898fc956557d00.svg",
-    "main.0e2572c2.css.map": "/Order-summary-component/static/css/main.0e2572c2.css.map",
-    "main.ed749a9a.js.map": "/Order-summary-component/static/js/main.ed749a9a.js.map",
+    "main.66f5e6ff.css.map": "/Order-summary-component/static/css/main.66f5e6ff.css.map",
+    "main.0b753915.js.map": "/Order-summary-component/static/js/main.0b753915.js.map",
     "787.ccd940c6.chunk.js.map": "/Order-summary-component/static/js/787.ccd940c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e2572c2.css",
-    "static/js/main.ed749a9a.js"
+    "static/css/main.66f5e6ff.css",
+    "static/js/main.0b753915.js"
   ]
 }
