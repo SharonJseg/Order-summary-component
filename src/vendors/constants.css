@@ -1,0 +1,12 @@
+:root {
+  /* Font families */
+  --ff-red-hat: 'Red Hat Display', sans-serif;
+
+  /* Colors */
+  --clr-background: #e0e8ff;
+  --clr-purple: #382ae1;
+  --clr-light-purple: #766cf1;
+  --clr-dark-navy: #1f2e55;
+  --clr-gray: #717fa6;
+  --clr-light-gray: #f7f9ff;
+}

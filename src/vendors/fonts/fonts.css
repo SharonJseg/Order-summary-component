@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('RedHatDisplay-Medium.woff') format('woff'),
+    url('RedHatDisplay-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('RedHatDisplay-Bold.woff') format('woff'),
+    url('RedHatDisplay-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('RedHatDisplay-Black.woff') format('woff'),
+    url('RedHatDisplay-Black.woff2') format('woff2');
+}

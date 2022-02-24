@@ -1,0 +1,155 @@
+.card {
+  max-width: 450px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+.card__image {
+  border-radius: 20px 20px 0 0;
+}
+
+.card__title {
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 1.32;
+  color: var(--clr-dark-navy);
+  margin: 45px auto 17px;
+}
+
+.card__text {
+  font-weight: 500;
+  line-height: 1.625;
+  max-width: 354px;
+  margin: 0 auto;
+  color: var(--clr-gray);
+}
+
+.order__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-light-gray);
+  border-radius: 11px;
+  max-width: 354px;
+  margin: 20px auto 57px;
+  padding: 25px 24px;
+}
+
+.order__icon {
+  margin-right: 20px;
+}
+
+.order__plan {
+  color: var(--clr-dark-navy);
+  font-weight: 900;
+  line-height: 1.32;
+}
+
+.order__container {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-gray);
+}
+
+.order__container:hover .order__change {
+  text-decoration: none;
+  color: var(--clr-light-purple);
+  transition: 0.2s ease;
+}
+
+.order__change {
+  margin-left: auto;
+  background: transparent;
+  outline: none;
+  border: transparent;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  color: var(--clr-purple);
+}
+
+.card__paybutton {
+  display: block;
+  cursor: pointer;
+  border: transparent;
+  max-width: 354px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--clr-purple);
+  border-radius: 11px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 0.9375rem;
+  color: #fff;
+  line-height: 1.32;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.card__paybutton:hover {
+  background-color: var(--clr-light-purple);
+  transition: 0.2s ease;
+}
+
+.card__cancel {
+  cursor: pointer;
+  margin: 32px auto 48px;
+  border: transparent;
+  outline: none;
+  background: transparent;
+  font-size: 0.9375rem;
+  line-height: 1.32;
+  color: var(--clr-gray);
+  font-weight: 900;
+}
+
+.card__cancel:hover {
+  color: var(--clr-dark-navy);
+  transition: 0.2s ease;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    max-width: 327px;
+  }
+
+  .card__title {
+    font-size: 1.375rem;
+    margin: 32px auto 16px;
+  }
+
+  .card__text {
+    line-height: 1.66;
+    font-size: 0.9375rem;
+    max-width: 263px;
+  }
+
+  .order__container {
+    max-width: 279px;
+    margin: 24px auto;
+    padding: 16px 17px;
+  }
+
+  .order__plan {
+    font-size: 0.875rem;
+  }
+
+  .order__price {
+    font-size: 0.875rem;
+  }
+
+  .order__change {
+    font-size: 0.8125rem;
+  }
+
+  .card__paybutton {
+    max-width: 279px;
+  }
+
+  .card__cancel {
+    margin: 24px auto 32px;
+  }
+}
